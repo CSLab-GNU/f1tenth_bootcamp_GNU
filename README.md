@@ -7,7 +7,7 @@
 
 # Installation
 ```bash
-git clone https://github.com/CSLab-GNU/f1tenth_bootcamp_GNU.git --config core.autocrlf=input
+git clone https://github.com/CSLab-GNU/f1tenth_bootcamp_GNU.git
 cd f1tenth_bootcamp_GNU
 pip install --user -e gym
 ```
