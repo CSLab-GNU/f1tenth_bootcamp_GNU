@@ -12,12 +12,13 @@ sys.path.append(current_dir)
 # import your drivers here
 from pkg.drivers import GapFollower
 from pkg.drivers import DisparityExtender
+from pkg.fgm_ref_way import FGM_REF_WAY
 
 # choose your drivers here (1-4)
-drivers = [DisparityExtender()]
+drivers = [FGM_REF_WAY()]
 
 # choose your racetrack here (Oschersleben, SOCHI, SOCHI_OBS)
-RACETRACK = 'SOCHI'
+RACETRACK = 'Oschersleben'
 
 
 def _pack_odom(obs, i):

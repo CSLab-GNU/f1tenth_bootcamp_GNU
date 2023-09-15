@@ -1,24 +1,21 @@
-# f1tenth_rl
- f1tenth with reinforcement learning 
+# f1tenth_FGM_reference_waypoint
+ f1tenth with FGM REF WAYPOINT
 
 ## Requirements
 * Python 3.8
 * Pip 22.0.8
-* Pytorch (no need of cuda, works well with version 1.13.1)
-* anaconda is an easy way to use pytorch 
 
 # Installation
 ```bash
-git clone https://github.com/CML-KU/f1tenth_rl.git --config core.autocrlf=input
-cd f1tenth_rl
+git clone https://github.com/CSLab-GNU/f1tenth_bootcamp_GNU.git --config core.autocrlf=input
+cd f1tenth_bootcamp_GNU
 pip install --user -e gym
 ```
 
 # Main
-main at pkg/src/pkg folder
 ```bash
-cd pkg/src/pkg
-python dqn.py
+cd pkg/src
+python -m pkg.main
 ```
 
 You can add driver code there.
